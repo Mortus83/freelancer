@@ -3,14 +3,13 @@ body {
 	background-position: center top;
 }
 .freelancer_border-top {
-	font-size: 22px;
+	font-size: 20px;
 	background: #fa5c65;
 	padding: 40px 12px 0px 15px;
     color: #FFFFFF;
     font-weight: bold;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 10px 10px;
 	font-family: 'Open-sans-regular';
-    margin-bottom: -25px;
     text-align: center;
 }
 .top_menu{
@@ -22,9 +21,7 @@ body {
 	font-family: 'Montserrat-Bold';
 	text-transform: uppercase;
 	color: #314a5b;
-}
-#bias {
-	margin-left: 14px;
+	margin-right: 25px;
 }
 .indent {
 	margin-bottom: 305px;
@@ -40,10 +37,7 @@ body {
 .fount_1 {
 	font-size: 20px;
 	color: #314a5b;
-/*	font-family: 'Open-sans-regular'*/
-}
-.container-read_more{
-	width: 170px;
+	font-family: 'Open-sans-regular'
 }
 .read_more {
 	text-transform: uppercase;
@@ -53,9 +47,10 @@ body {
     color: #FFFFFF;
     border-radius: 10px;
     text-align: center;
-/*    font-family: 'Open-sans-regular';*/
+	font-family: 'Open-sans-regular';
     margin-bottom: 470px;
     font-weight: bold;
+    width: 155px;
 }
 .container-grid_5 {
 	padding-top: 100px;
@@ -85,7 +80,7 @@ body {
 	text-transform: uppercase;
 }
 .body_text {
-	/*font-family: 'open_sans_semibold';*/
+	font-family: 'Open-sans-regular';
 	font-size: 17px;
 	color: #9aa0ab;
 }
@@ -100,7 +95,7 @@ body {
 	color: #314a5b;
 	text-transform: uppercase;
 }
-.we_are_small {
+.portfolio_description {
 	font-size: 16px;
 	font-family: 'Montserrat-Bold';
 	color: #314a5b;
@@ -115,52 +110,57 @@ body {
 .red {
 	color: red;
 }
-.red_sub {
+.red_desc {
 	color: red;
 	margin-top: -13px;
 	font-size: 14px;
+	font-family: 'Open-sans-regular';
 }
-.left_foto_block {
+.left_photo_block {
 	float:left;
 	padding-right: 20px;
 }
 .body_text_right_text_block {
 	font-size: 15px;
 	color: #9aa0ab;
+	font-family: 'Open-sans-regular';
 }
 .line {
 	width: 100%;
 	height: 1px;
-	background-color: #9aa0ab;
+	background-color: #e6eaed;
 	margin-bottom: 30px;
 }
 .more {
 	color: red;
 	font-size: 15px;
-	font-family: 'Montserrat-Bold';
+	font-family: 'Montserrat-Regular';
 	text-transform: uppercase;
 }
 .indent_more {
     padding: 24px 0 56px 0;
 	text-align: right;
 }
-.latest_text {
-	font-size: 13px;
+.footer {
+	font-size: 12px;
 	color: #9aa0ab;
 	text-align: right;
+	font-family: 'Open-sans-regular';
 }
 .social_network li{
 	display: inline-block;
+	margin-right: 10px;
+	margin-right: 25px;
 }
 @font-face {
     font-family: 'Montserrat-Bold';
-    src: url(fonts/Montserrat-Bold.ttf);
+    src: url(.././fonts/Montserrat-Bold.ttf);
 } 
 @font-face {
     font-family: 'Open-sans-regular';
-    src: url(fonts/open sans regular.ttf);
-} 
+    src: url(.././fonts/open_sans_regular.ttf);
+}
 @font-face {
-    font-family: 'open_sans_semibold';
-    src: url(fonts/open_sans_semibold.ttf);
-} 
+    font-family: 'Montserrat-Regular';
+    src: url(.././fonts/Montserrat-Regular.otf);
+}
